@@ -34,6 +34,31 @@ Weight: 50
 - MySql ^8
 - PHP ^7.2
 
+## Building and Running
+You are going to need to install composer. 
+I also recommend installing [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html), this will make running locally very easy. 
+It also makes sure that we are working in the same environment regardless of what OS you are running.
+
+1. install composer and vagrant
+2. rename .env.example to .env
+3. run the following commands
+> composer install.
+
+> Windows
+> vendor\bin\homestead make
+
+> Mac / Linux
+> php vendor/bin/homestead make
+
+> vagrant up
+
+4. Add the following line to your host file
+> 192.168.10.10 flashcard.test
+
+Windows: C:\Windows\System32\drivers\etc\hosts
+Mac/Linux: /etc/hosts
+
+The app can be accessed at the url: flashcard.test
 
 ## About Laravel
 
