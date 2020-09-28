@@ -1,5 +1,38 @@
-# FlashcardCollection
-cs3296 project proposal
+# Flashcard Collection
+
+## Project Abstract
+Flashcard Collection is a web application whose core goal is to create, maintain, and curate collections of flashcards that people can use to study for and learn about various subjects. Users will be able to create private flashcard collections for themselves and can choose to publish them for others to see and use if they wish to. Once a collection is created, the user will be able to go through them and study using the collection. Published collections will be added to the applications collection library and made available to all users. Users will be able to rate published collections based on helpfulness. The application is a full stack project and requires a front end website for user interaction, a backend for processing request and a database for storage. 
+
+![Use Case Image](RisirPatel_FlashcardCollection.png)
+
+## Project Relevance
+One of the big goals is to become familiar working with frameworks(laravel) and following design patterns such as MVC which promote good coding practices by seperating application concerns. Following this, many of goals set out for this class will also be met including object oriented design, test driven development, creating graphic user interface, working with databases, project management and version control. These goals are important because a lot of real-world projects depend on working with and integrating multiple systems. Being able to work with a database is especially important as pretty much all systems have some sore of need to store and integrate data into their project. Also being able to use a version control system is incredibly important as projects have multiple development and release cycles, and allow many people to work on the project at the same time.
+
+## Conceptual Design
+Since this is a stand alone project, we will essentially be making it from scratch. For the technologies being used, I plan to use a LAMP stack (linux, apache, mysql, php). The project will utilize the Laravel PHP framework and follow the MVC (model-view-controller) pattern. It will also utilize some open source js packages to add functionality such as picture upload/modification. We will need to create a front end interface that is simple, easy to use, and provides a good flow for the user. 
+
+Flashcards will have multiple sides, and each side will consist of a label, a question or some text, and a weight, and optionally a picture. Weights are used during study sessions to show incorrect cards more frequently to help with studying.
+A Collection will consist of multiple related flashcards (by subject or test). Collection will have a title, and category / subject associations.
+
+An example deck for a chemistry class would have a card like:
+Side 1
+Label: Chemical Formula
+Text: H20
+Picture (Optional)
+Weight: 50
+Side 2
+Label: Chemical Name
+Text: water
+Picture (Optional)
+Weight: 50
+
+## Required Resources
+- Group members should have some experience developing a web app and be familar with atleast 1 or more of the following Javascript, HTML, MySql, PHP, css.
+- Laravel
+- Node.js 
+- Apache HTTP server
+- MySql ^8
+- PHP ^7.2
 
 
 ## About Laravel
