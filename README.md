@@ -38,6 +38,7 @@ Weight: 50
 You are going to need to install composer. 
 I also recommend installing [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html), this will make running locally very easy. 
 It also makes sure that we are working in the same environment regardless of what OS you are running.
+The first time it takes some time but subsequents builds are a lot faster.
 
 1. install composer and vagrant
 2. rename .env.example to .env
