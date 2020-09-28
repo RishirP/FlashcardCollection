@@ -35,20 +35,20 @@ Weight: 50
 - PHP ^7.2
 
 ## Building and Running
-You are going to need to install composer. 
+You are going to need to install [Composer](https://getcomposer.org/download/). 
 I also recommend installing [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html), this will make running locally very easy. 
 It also makes sure that we are working in the same environment regardless of what OS you are running.
 The first time it takes some time but subsequents builds are a lot faster.
 
-1. install composer and vagrant
+1. install [Composer](https://getcomposer.org/download/), [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html)
 2. rename .env.example to .env
 3. run the following commands
 > composer install.
 
-> Windows
+> Windows: 
 > vendor\bin\homestead make
 
-> Mac / Linux
+> Mac / Linux: 
 > php vendor/bin/homestead make
 
 > vagrant up
@@ -57,6 +57,7 @@ The first time it takes some time but subsequents builds are a lot faster.
 > 192.168.10.10 flashcard.test
 
 Windows: C:\Windows\System32\drivers\etc\hosts
+
 Mac/Linux: /etc/hosts
 
 The app can be accessed at the url: flashcard.test
